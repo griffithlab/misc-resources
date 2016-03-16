@@ -1,0 +1,9 @@
+#Script to permute DOCM variants
+#Originally Developed by Mayank Nishikant Choudhary.
+#
+##copy over the primary DOCM file.
+#for example: cp /gscmnt/gc2609/mardiswilsonlab/docm/docm-10-22-14.tsv .
+
+#to run the permutation. 
+#parameters are ip_file, permuted_file, span(window is site+-span)
+bash makevariants.sh docm-10-22-14.tsv docm-10-22-14_permuted.tsv 5
